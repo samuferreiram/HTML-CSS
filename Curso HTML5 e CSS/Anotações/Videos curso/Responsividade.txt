@@ -1,0 +1,9 @@
+Responsividade para sites
+
+- Add extensão window resizer
+- colocar margin auto, ja deixar bloco centralizado
+- Min-width: 260px
+- Max-width: 800px ( o min e max sao para definir a largura quebrando pag responsiva
+- Envelopar as imagens com a tag picture
+- Incluir o source com o max 600px
+____________

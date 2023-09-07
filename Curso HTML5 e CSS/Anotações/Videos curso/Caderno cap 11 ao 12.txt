@@ -1,0 +1,108 @@
+HTML5
+
+Imagens
+
+Para incluir midias variaveis, que atenda cel, tabletes,
+pc, note e tvs sem dificultar a visualização
+
+<picture> -- img src -- source media type para definir os demais
+tamanhos (lembrando de um gap de 50 da barra de rolagem)
+e lembrar de colocar "px" no max-width que definir.
+
+Audio
+
+1º modo - <audio> -- inclui no src o audio e depois 
+digita autoplay (se nao der, digitar controls antes).
+
+2º modo - <audio> -- <source src> inclui o audio no src e
+no type define o tipo de arquivo usado (mpeg, ogg, wav)
+e incluir depois de <audio preload (ideal deixar a 
+opção metadata e depois autoplay (se nao der, digitar 
+controls antes).
+
+auto - site só abre quando audio estiver todo baixado;
+metadata - no decorrer de abertura do site;
+none - somente quando o usuario clica no play.
+
+Video hospedagem interna
+
+1º modo - <video> -- inclui no src o video e depois 
+digita controls. Se quiser editar tamanho do video,
+antes de controls, digitar width e definir tamanho do
+video.
+
+2º modo - <video> -- Se quiser editar tamanho do video,
+antes de controls, digitar width e definir tamanho do
+video. -- <source src> para incluir varios tipos de arq de
+video, igual no audio, e disponibilizar a opcao de
+download.
+
+Obs.: Para incluir uma capa no video, apos a tag width,
+incluir a tag poster e escolher a capa do video.
+
+Video hospedagem externa
+
+Para incluir video do youtube e vimeo só entrar no video
+ir em compartilhar, incorporar e copiar. Depois colar no
+visual studio.
+
+Qualidade do vimeo melhor do que a do youtube
+Algoritmo do youtube melhor do que a do vimeo
+
+_________________________________________________________
+
+CSS
+
+Estilo inline
+
+Para escolher cor
+
+tag principal (body) -> style=background-color
+após local de escolher a cor, pode colocar fonte do
+texto com o seguinte código: font-family...
+
+tag principal (h1) -> style=color
+
+Para formatar texto
+
+tag principal (p) -> style="text-align: justify (tem
+outras opções)
+
+Para alterar tamanho da fonte
+
+font-size: 20px por exemplo
+font-size: 0.7em por exemplo
+---------------------------------------------------------
+
+Estilo local
+
+No cabeçalho do doc, incluir a tag style. E nela pode
+incluir background-color, font-family, font-size, color,
+text-align
+---------------------------------------------------------
+
+Estilo externo
+
+No cabeçalho, criar a tag - link-css
+Segure ctrl e clique (no style.css) para criar um novo 
+arquivo. Neste arquivo, na primeira linha, crie a regra
+@charset "UTF-8" que é o alfabeto que utilizamos no HTML5
+
+Obs: Tem como criar mais de uma tag link (href style.css,
+extra.css e quantos outros quiser).
+
+Obs1: Tem como misturar todos os estilos em um arquivo,
+porém não é muito recomendado.
+
+Obs2:Tudo que estiver no topo e começar com @, refere-se
+a uma regra.
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+Sombras
+
+box-shadow sequencia: lateral, altura, embassamento e
+espalhamento.
+
+border-radius: em porcentagem
+
+para criar sombra interna, antes de lateral, digite
+inset.
+
+da para editar pelo devtools, copia e cola o resultado
+que gostou no visual studio.
+
+------------------------------------------------------
+Bordas
+

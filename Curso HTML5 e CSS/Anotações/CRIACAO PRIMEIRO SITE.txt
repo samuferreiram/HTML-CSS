@@ -1,0 +1,109 @@
+CRIAÇÃO DO SITE DO DESAFIO 10
+
+HTML
+
+- Para rascunhar layout do site, usar o Mackflow
+
+- Criou-se no body: header (dentro dele o h1 e p), nav (dentro dele os links)
+
+- Criou-se no main: 
+	- article (dentro dele está todo o texto, imagens e videos);
+	- tag aside para a parte do extra (de 'quer aprender mais até Android.);
+	- incluiu o h1, os h2, os p, incluiu as fotos e imagens;
+	- criou a lista (em ul - li) dos nomes dos androides e depois envelopou
+	  cada um com abbr e entitulou seus nomes em português;
+	- colocou as palavras Android e Google em destaque com a tag strong;
+	- colocou Dan Morrill como link (tag a) no href colocou o link
+	  da biografia dele e colocou para abrir em outra aba (target: _blank);
+	- colocou Inkscape como link (tag a) no href colocou o link do site e
+	  colocou para abrir em outra aba também (target: _blank);
+	- Dandrois e Android Q tambem foram destacados com a tag strong;
+	- colocou Irina	Blok como link (tag a) no href colocou o link do site e
+	  colocou para abrir em outra aba também (target: _blank);
+ 	- colocou Android History como link (tag a) no href colocou o link do
+	  site e colocou para abrir em outra aba (target: _blank);
+
+
+- Criou-se no head: um link para o style a parte
+	- No style, sempre colocar em primeiro @charset 'UTF-8';
+
+- Criou-se no footer:
+	- colocou no Gustavo Guanabara como link (tag a) no href colocou o link 
+	  do site github e colocou para abrir em outra aba também 
+	  (target: _blank);
+	- colocou no Cursoemvideo como link (tag a) no href colocou o link do 
+	  site e colocou para abrir em outra aba também (target: _blank);
+
+----------------------------------------------------------------------------------
+
+CSS
+
+- cores utilizadas para criação do site:
+	- #ebe
+	- #83e1ad
+	- #3ddc84
+	- #2fa866
+	- #1a5c37
+	- #063dle
+
+- importou do google fonts a fonte Bebas Neue
+
+- incluiu a fonte android da pasta do desafio (usando @font-face)
+
+- criou a regr :root. Onde ela cria regras para serem usadas em 
+todo o programa, facilitando futuras alterações e edições de todas
+tags.
+
+- editar as variaveis em ordem para ficar melhor e mais organizado
+
+- no main, incluir o min e max-width: 300 e 1000px respectivamente
+
+- no main, margin: auto e padding: 20px;
+
+- no main img: width 100%
+
+- no main: incluido box-shadow: 0, 0, 10px e black transparente a gosto
+
+- no main: border-botton-left e right: 10px
+
+- envelopado as imgs e deixado o max com 670px. depois incluido class na img do bugdroid.
+
+- no main img.pequena: width 50% e display: block (para centralizar img)
+
+- no header incluiu min-height: 150px, alinhou o texto no centro e padding-top: 40px
+
+- no header h1: font-size: 3em e margin-bottom: 20px
+
+- no header p: font-family: padrao, fonte-size: 1.2em, max width: 600px, padding-left e rigth: 10px, margin: auto
+
+- no header h1 e p: incluiu text-shadow: 2px 2px 0px black transparente
+
+- no header: inclui background-img - linear gradient (to bottom, cor3 a cor5)
+
+- no nav: incluiu background color - cor5, padding 10px, box-shadow: 0px 7px 7px black transparente
+
+- no nav a: color white, padding: 10px, border-radius: 5px, text-decoration: none, font-weight: bold, transition-duration: 0.5s
+
+- no nav a:hover: incluiu background color: cor3, color: cor5 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

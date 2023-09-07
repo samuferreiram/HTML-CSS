@@ -1,0 +1,50 @@
+Identificação de tag
+
+id='principal'(principal é exem. pode ser qlqr nome)
+
+No style, voce pode colocar para esta tag diferente:
+
+h1#principal ou #principal
+
+só pode colocar 1 id em um mesmo documento
+
+Em html é id = em CSS é #
+Em html é class = em CSS é .(ponto final)
+
+-----------------------------------------------------
+Diferenca id e class
+
+id - somente para uma tag
+class - serve para mudar mais de uma tag
+
+se quiser colocar mais de uma class na tag, só
+colocar na frente um do outro, por exemplo:
+<h1 class='basico destaque'>
+<h1 id='principal' class='destaque'>
+ 
+obs.: quando colocar id e class, o id sobrepoe o 
+class
+
+-----------------------------------------------------
+Pseudo-Classes
+
+:  = pseudo-class
+:: = pseudo-element
+>  = children
+
+hover - quando passar o mouse em cima.
+
+>tag e dentro dela digitar display e escolher none,
+voce esconde a tag
+>tag e dentro dela digitar display e escolher block,
+voce faz a tag aparecer quando passar o mouse.
+Ex.: div:hover > p
+
+
+
+
+
+
+
+
+

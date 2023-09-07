@@ -1,0 +1,143 @@
+HTML5 e CSS
+
+Repositorios Publicos para o curso
+
+github.com/gustavoguanabara
+gustavoguanabara.github.io
+_________________________________________________
+
+HTML=conteudo(imagens,videos,textos,tabelas)
+CSS=design(cores,sombras,tamanho,posicionamento)
+
+HTML
+
+<h1>Exemplo de titulo</h1>
+ 
+abertura de tag = <h1>
+fechamento de tag = </h1>
+conteudo = Exemplo de titulo
+
+<p>Exemplo de paragrafo</p>
+
+abertura de tag = <p>
+fechamento de tag = </p>
+conteudo = Exemplo de paragrafo
+
+<img src="foto.png" alt="Exemplo de foto">
+
+abertura de tag = <img
+parametro = src e alt
+valor = "foto.png" e "Exemplo de foto"
+
+hr = linha horizontal
+br = quebra de linha
+
+&lt; = >
+&pt; = <
+
+para incluir simbolo, utiliza-se & antes de
+digitar o código e finalizar com ;
+para incluir emojis, utiliza-se &#x antes de
+digitar o código e finalizar com ;
+
+para inserir uma imagem no visual studio, entre
+as "" do src, segurar ctrl+espaço
+
+imagens de icones pag internet. - iconarchive
+para transformar png para ico - www.favicon.io
+
+link (favicon) acima do titulo para incluir
+icone.
+
+os titulos vao de h1 ate h6.
+
+ctrl+shift+p = para incluir frase na formatacao
+que quer
+
+depois digitar abb e selecionar primeira opcao.
+
+negrito não semantica - digitar b
+negrito semantica - digitar strong
+
+italico não semantica - digitar i
+italico semantica - digitar em
+
+marcador de texto
+
+usa-se atalho mark indo na procura pelo 
+ctrl+shift+p e procurando emmet: envelop
+depois mark
+
+mudar cor:é em css. podemos mudar a cor no texto
+<mark style="">. Ai seleciona background-color
+e escolhe a cor ou entao no cabeçalho do pro-
+grama. <style> - mark {background-color} e
+escolhe a cor.
+
+Para numeros/palavras acima - ctrl+shift+p
+sup - x3+4 (onde é x elevado ao cubo)
+
+Para numeros/palavras abaixo - ctrl+shift+p
+sub - H2O (onde 2 fica abaixo da linha).
+
+Quando for citaçao, usar a tag q ao invés de
+digitar ''
+
+Sigla - vai envelopar com a tag abbr
+
+Listas ordenadas. Na tag ol, incluir type
+Tipos: 
+1(numeral), A (letra maiuscula), 
+a (letra minuscula), I (Romano maisculo) e 
+i (romano minusculo)
+
+Listas não ordenadas. Na tag ul, incluir type
+Tipos: 
+disc (bolinha), circle (circulo) e
+square (quadrado)
+
+tag a = ancora (referenciar hypertext).
+dentro de a, depois de href incluir target
+(_blank) para abrir em outra pagina. depois
+colocar rel para especificar se é uma outra
+pág externa se é continuação da que está no 
+momento...
+
+para continuacao do mesmo doc. utiliza no href
+ctrl+espaco, inclui a segunda pag, nao
+inclui target (ou inclui a target _self) e no
+rel coloca next (na segunda pág no rel coloca 
+prev).
+
+usando nofollow. no local do rel, após identi-
+ficar se o site é ok (tem seu aval), colocar
+nofollow
+
+../ - aceita voltar uma pasta do arquivo.
+
+iana.org/assignments para olhar o type de arq
+para download.
+
+------------------------------------------------
+
+CSS
+
+h1{
+   font-family: Arial;
+   font-size: 20pt;
+   color: blue;
+  }
+
+seletor = h1
+declaracao = font-family: Arial, font-size: 20pt
+             e color: blue
+propriedade = font-family,font-size e color
+valor = Arial, 20pt e blue
+_________________________________________________
+
+  
+
+
+
+
+

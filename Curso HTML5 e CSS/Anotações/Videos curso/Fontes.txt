@@ -1,0 +1,98 @@
+Medidas absolutas
+cm, mm, in, px, pt, pc
+
+Medidas relativas
+em, ex, rem, vw, vh, %
+
+Medidas recomendadas:
+
+em e px (font-size)
+
+1em = 16px
+
+-------------------------------------------------
+Pesos de fonte
+
+exemplo com a fonte 'work sans'
+
+font-weight = lighter, normal, bold e bolder
+ou
+font-weight = vai de 100 a 900
+
+font-style = italico, normal
+
+text-decoration = line ou underline (para 
+sublinhar texto)
+
+Da para fazer tudo com uma unica tag.
+
+sequencia da shorthand font (tag font):
+
+font-style->font-weight->font-size->font-family
+
+se quiser deixar de colocar algum, seguir a 
+sequencia sem colocar o item que nao quer incluir
+
+-------------------------------------------------
+
+inserindo fontes do Google fonts
+
+para incluir vai em embed em @import. Nao inclui
+style que esta no texto. Começar por @import e 
+colar dentro de style no visual studio.
+
+e depois tem que incluir o nome da fonte nas tags
+que estao na tag style. body, h1, h2 por exemplo.
+ 
+-------------------------------------------------
+
+inserindo fontes externas
+
+
+site opcional - dafont.com
+
+baixar o arquivo zip. Apos descompactar, copiar
+os arquivos na pasta que quer usar a fonte.
+
+No visual studio, na primeira linha, criar
+@font-face {
+font-family: nome que quiser; (no font-family
+na tag body ou h1...,usar este mesmo nome) 
+src: url('nome da fonte do jeito que está escrito
+no documento descompactado.otf') format('opentype'),
+url('mesma coisa do de cima.ttf') format('truetype')
+	   }
+
+Tipos de formato:
+
+opentype (otf)
+truetype (ttf)
+embedded-opentype
+truetype-aat (apple advanced typography)
+svg
+--------------------------------------------------
+
+Detectando fontes em imagens
+
+Sites: whatfontis, fontsquirrel, myfonts
+
+--------------------------------------------------
+
+Alinhamento de texto
+
+text-align - é o alinhamento do texto
+text-indent - é o espaçamento inicial da tag
+
+
+
+
+
+
+
+
+
+
+
+
+
+

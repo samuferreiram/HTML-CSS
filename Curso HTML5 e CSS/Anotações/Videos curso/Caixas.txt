@@ -1,0 +1,56 @@
+Modelo de caixas
+
+Border - borda da caixa
+segue a sequencia: widht - style - color
+ 
+Padding - preenchimento
+segue a sequencia: top, right, button, left
+
+Margin - margem
+segue a sequencia: top, right, button, left
+
+outline - contorno/traçado
+segue a sequencia: widht - style - color
+
+obs.: user agent = navegador
+ctrl+shift+i = da para editar tambem pelo DevTools
+
+Tipos de caixa
+
+1ª - box level (block)
+
+Ele sempre se inicia a linha seguinte (qubra de pag)
+e ocupa toda a área da tela
+
+tags: div, h1 a h6, p, main, heaver, nav, article,
+aside, footer, form, video
+
+2ª - inline level
+
+Ele sempre se inicia na sequencia da do texto/caixa
+anterior (não tem quebra de pag).
+
+tags: span, a, code, small, strong, em, sup, sub, 
+label, button, input, select
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

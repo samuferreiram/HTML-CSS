@@ -1,0 +1,37 @@
+Cores (como escolher)
+
+hsl (matis, saturação em %, luminosidade em %)
+
+site apoio: adobe colors
+	    coolors (mais perdido)
+
+aplicativo apoio: Paletton
+
+degrade: background-image: linear-gradient
+(to right, cor inicial, cor final)
+background-attachment: fixed
+
+obs.: no to right pode colocar tambem 45deg por
+exemplo.
+Tambem podemos usar radial-gradient e no lugar
+do to right, colocar circle por exemplo. Na
+frente de cada cor, pode colocar a % da tela que
+terá aquela cor.
+
+* = configuração global (isso é dentro da tag
+style)
+
+exemplo:
+
+*{ 
+  heght: 100%
+ }
+
+obs.: /*xxxxx*/ é para deixar como comentário.
+
+width (largura) - 600px (por exemplo)
+padding (acolchoamento) - 10px (por exemplo)
+margin (margem) - auto (centralizado na pagina)
+border-radius - 10px (raio da borda)
+box-shadow - 5px, 5px, 10px, azul (sombreamento)
+

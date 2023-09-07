@@ -1,0 +1,21 @@
+Hierarquia de tabelas pequenas
+
+Table (tabela)
+	table row (linha de tabela)
+		table header (cabecalho de tabela)
+			table data (dado de tabela)
+	
+
+Hierarquia de tabelas grandes
+
+TABLE
+    CAPTION
+
+	THEAD
+		TR, TD, TH
+
+	TBODY
+		TR, TD, TH
+
+	TFOOT
+		TR, TD, TH		
